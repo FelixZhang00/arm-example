@@ -2,21 +2,21 @@
 
 On ubuntu, arm-linux-gnueabi-gcc, arm-linux-gnueabihf-as{gcc,ld...}
 
-#comile
+# comile
 1.static
 `arm-linux-gnueabi-gcc hello.c -g -o hello -static`
 
 2.dynmic
 `arm-linux-gnueabihf-gcc -o hello-dynmic hello.c`
 
-#run
+# run
 1.directly
 `./hello-dynmic`
 
 2.qemu-arm
 `qemu-arm -L /usr/arm-linux-gnueabihf/ ./hello`
 
-#debug
+# debug
 step 1:install gdb-multiarch
 `sudo apt-get install gdb-multiarch`
 
