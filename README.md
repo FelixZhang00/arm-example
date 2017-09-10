@@ -34,7 +34,7 @@ step 3:
 `gdb-peda$ file ./hello`
 
 enjoy:
-```
+```asm
 gdb-peda$ disassemble 
 Dump of assembler code for function _start:
 => 0x00008b98 <+0>:	mov	r11, #0
