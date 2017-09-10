@@ -24,6 +24,9 @@ step 1:install gdb-multiarch
 step 2:
 `qemu-arm -g 1234 ./hello`
 
+or:
+`$ qemu-arm -L /usr/arm-linux-gnueabihf/ -g 1234`
+
 step 3:
 `$ gdb-multiarch`
 
