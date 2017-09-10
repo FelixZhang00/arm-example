@@ -25,7 +25,7 @@ step 2:
 `qemu-arm -g 1234 ./hello`
 
 or:
-`$ qemu-arm -L /usr/arm-linux-gnueabihf/ -g 1234`
+`$ qemu-arm -L /usr/arm-linux-gnueabihf/ -g 1234 ./hello`
 
 step 3:
 `$ gdb-multiarch`
