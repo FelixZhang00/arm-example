@@ -2,7 +2,7 @@ Our first program
 
 We have to start with something, so we will start with a ridiculously simple program which does nothing but return an error code.
 
-```
+```asm
 /* -- first.s */
 /* This is a comment */
 .global main /* 'main' is our entry point and must be global */
