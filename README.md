@@ -50,3 +50,8 @@ Dump of assembler code for function _start:
    0x00008bd0 <+56>:	andeq	r9, r0, r12, asr r4
 End of assembler dump.
 ```
+
+# Refences
+[http://thinkingeek.com/arm-assembler-raspberry-pi/](http://thinkingeek.com/arm-assembler-raspberry-pi/)
+[https://www.ece.cmu.edu/~ee349/f-2012/lab2/qemu.pdf](https://www.ece.cmu.edu/~ee349/f-2012/lab2/qemu.pdf)
+
