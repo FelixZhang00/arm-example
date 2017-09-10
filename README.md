@@ -18,15 +18,19 @@ On ubuntu, arm-linux-gnueabi-gcc, arm-linux-gnueabihf-as{gcc,ld...}
 
 # debug
 step 1:install gdb-multiarch
+
 `sudo apt-get install gdb-multiarch`
 
 step 2:
 `qemu-arm -g 1234 ./hello`
 
 step 3:
-`$ gdb-multiarch `
+`$ gdb-multiarch`
+
 `gdb-peda$ set architecture armv5te`
+
 `gdb-peda$ target remote localhost:1234`
+
 `gdb-peda$ file ./hello`
 
 enjoy:
