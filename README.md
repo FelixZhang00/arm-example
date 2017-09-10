@@ -52,6 +52,7 @@ End of assembler dump.
 ```
 
 # Refences
-[http://thinkingeek.com/arm-assembler-raspberry-pi/](http://thinkingeek.com/arm-assembler-raspberry-pi/)
-[https://www.ece.cmu.edu/~ee349/f-2012/lab2/qemu.pdf](https://www.ece.cmu.edu/~ee349/f-2012/lab2/qemu.pdf)
+http://thinkingeek.com/arm-assembler-raspberry-pi/
+
+https://www.ece.cmu.edu/~ee349/f-2012/lab2/qemu.pdf
 
